@@ -125,9 +125,9 @@ min52 = crypto_bars['low'].rolling(52).min()
 senkou_span_a = (tenkan_sen + kijun_sen) / 2
 senkou_span_b = (max52 + min52) / 2
 
-# Parabolic SAR... if it was not so hard to implement :( (needs uptrend/downtrend)
+# Parabolic SAR - to do (needs uptrend/downtrend)
 
-# Fibonacci Retracement... if it was not so hard to implement :( (needs uptrend/downtrend)
+# Fibonacci Retracement - to do (needs uptrend/downtrend)
 
 # On-Balance Volume (NOT GRAPHED)
 obv = (np.sign(crypto_bars['close'].diff()) * crypto_bars['volume']).fillna(0).cumsum()
