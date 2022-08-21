@@ -17,13 +17,13 @@ This program creates datasets from Alpaca API, modifies them, and then uses them
 
 ### Performance:
 
-<img src="cryptopredictor-hour-2020-08-20.png" />
+<img src="cryptopredictor-hour-2020-08-20.PNG" />
 
 Trained with hourly closing values from 2020-08-20 to 2022-08-20
 
 ****
 
-<img src="cryptopredictor-minute-2020-08-20.png" />
+<img src="cryptopredictor-minute-2020-08-20.PNG" />
 
 Trained with closing values from 2020-08-20 to 2022-08-20 from every minute
 
