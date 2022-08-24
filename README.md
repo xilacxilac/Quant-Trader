@@ -2,9 +2,9 @@
 
 **Quant Trader** is a Python project which attempts to predict future stock market
     and cryptocurrency movement through the utilization of deep learning with long
-    short-term memory layers. The project has three forms of predictions: next day
-    candlestick, closing price some time in the future, and candlestick some time
-    in the future.
+    short-term memory layers. The project has three forms of predictions: closing
+    price some time in the future, next day candlestick, and candlestick some
+    time in the future.
 
 ****
 
@@ -17,18 +17,19 @@ This program creates datasets from Alpaca API, modifies them, and then uses them
 
 ### Performance:
 
-<img src="cryptopredictor-hour-2020-08-20.PNG" />
+#### Cryptocurrency Closing Price Predictor
 
-Trained with hourly closing values from 2020-08-20 to 2022-08-20
+LSTM trained with hourly closing values of Bitcoin from 2019-08-22 to 2022-08-22.
 
-****
+<img src="performances/Closing Cryptocurrency/LSTM/2019-08-22-e150.PNG" />
 
-<img src="cryptopredictor-minute-2020-08-20.PNG" />
+Bi-LSTM trained with hourly closing values of Bitcoin from 2020-08-22 to 2022-08-22.
 
-Trained with closing values from 2020-08-20 to 2022-08-20 from every minute
+<img src="performances/Closing Cryptocurrency/Bidirectional LSTM/2020-08-22-e150.PNG" />
 
-So far, the performance has been decent. The program is able to accurately follow
-    the trends of actual price, however, it fails to match its volatility.
+Bi-LSTM trained with hourly closing values of Bitcoin from 2019-08-22 to 2022-08-22.
+
+<img src="performances/Closing Cryptocurrency/Bidirectional LSTM/2019-08-22-e200.PNG" />
 
 ****
 

@@ -13,8 +13,8 @@ start_date_next = "2020-08-17"
 
 # Cryptocurrency Future Predictor
 cryptocurrency_further = "BTCUSD"
-timeframe_further = TimeFrame.Minute
-start_date_further = "2020-08-20"
+timeframe_further = TimeFrame.Hour
+start_date_further = "2019-08-22"
 
 # Cryptocurrency Latest Quote
 cryptocurrency_quote = "ETH/USD"

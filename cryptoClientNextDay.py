@@ -6,6 +6,7 @@ from alpaca.data.timeframe import TimeFrame
 import plotly.graph_objects as go
 from main import cryptocurrency_next, start_date_next
 import os
+from os.path import exists
 
 # Crypto clients with Alpaca API
 crypto_client = CryptoHistoricalDataClient()
@@ -201,5 +202,6 @@ crypto_bars.fillna(0, inplace=True)
 print(crypto_bars.isnull().sum())
 
 # Convert to .csv for future use
-os.remove('crypto_bars_next_day.csv')
-crypto_bars.to_csv('crypto_bars_next_day.csv')
+if exists('datasets/crypto_bars_next_day.csv'):
+    os.remove('datasets/crypto_bars_next_day.csv')
+crypto_bars.to_csv('datasets/crypto_bars_next_day.csv')
