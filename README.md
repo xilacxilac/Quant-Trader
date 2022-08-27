@@ -21,15 +21,15 @@ This program creates datasets from Alpaca API, modifies them, and then uses them
 
 LSTM trained with hourly closing values of Bitcoin from 2019-08-22 to 2022-08-22.
 
-<img src="performances/Closing Cryptocurrency/LSTM/2019-08-22-e150.PNG" />
+<img src="performances/Closing Cryptocurrency/LSTM/2019-08-22-e150.png" />
 
 Bi-LSTM trained with hourly closing values of Bitcoin from 2020-08-22 to 2022-08-22.
 
-<img src="performances/Closing Cryptocurrency/Bidirectional LSTM/2020-08-22-e150.PNG" />
+<img src="performances/Closing Cryptocurrency/Bidirectional LSTM/2020-08-22-e150.png" />
 
 Bi-LSTM trained with hourly closing values of Bitcoin from 2019-08-22 to 2022-08-22.
 
-<img src="performances/Closing Cryptocurrency/Bidirectional LSTM/2019-08-22-e200.PNG" />
+<img src="performances/Closing Cryptocurrency/Bidirectional LSTM/2019-08-22-e200.png" />
 
 ****
 
